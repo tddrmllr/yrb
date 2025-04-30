@@ -4,6 +4,3 @@
 # not, and they need to be included for the `embed` feature to work with static
 # Ruby.
 rustflags = ["-C", "link-dead-code=on"]
-
-[patch.crates-io]
-yrs = "=0.16.10"
